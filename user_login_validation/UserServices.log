@@ -1,0 +1,126 @@
+18:53:49.972 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:53:49.972 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:53:49.972 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+18:53:50.053 [http-nio-8001-exec-1] INFO  com.brian.util.LoggingAspect - Logging after the findById method has returned Optional[User [userId=6, userName=notp0, password=passsword, firstName=test, lastName=testlastname, membershipLevel=3]]
+19:02:36.926 [Thread-14] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+19:02:36.926 [Thread-14] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+19:02:36.929 [Thread-14] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+19:02:36.987 [restartedMain] INFO  c.b.UserLoginValidationApplication - Starting UserLoginValidationApplication using Java 17.0.2 on Brian-Laptop with PID 56044 (C:\Users\blee1\Documents\Java\brian_lee_p1\user_login_validation\target\classes started by blee1 in C:\Users\blee1\Documents\Java\brian_lee_p1\user_login_validation)
+19:02:36.987 [restartedMain] INFO  c.b.UserLoginValidationApplication - No active profile set, falling back to 1 default profile: "default"
+19:02:37.122 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:02:37.128 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+19:02:37.196 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+19:02:37.196 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:02:37.196 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+19:02:37.218 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:02:37.219 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 231 ms
+19:02:37.262 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:02:37.266 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+19:02:37.641 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+19:02:37.641 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+19:02:37.834 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:02:37.834 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:02:37.888 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:02:37.963 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+19:02:37.971 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+19:02:37.973 [restartedMain] INFO  c.b.UserLoginValidationApplication - Started UserLoginValidationApplication in 1.007 seconds (JVM running for 692.739)
+19:02:37.974 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+19:31:46.564 [RMI TCP Connection(50)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+19:31:46.574 [RMI TCP Connection(50)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+19:31:46.574 [RMI TCP Connection(50)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+19:31:46.577 [RMI TCP Connection(50)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+08:24:12.268 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+08:24:12.271 [restartedMain] INFO  c.b.UserLoginValidationApplication - Starting UserLoginValidationApplication using Java 17.0.2 on Brian-Laptop with PID 17056 (C:\Users\blee1\Documents\Java\brian_lee_p1\user_login_validation\target\classes started by blee1 in C:\Users\blee1\Documents\Java\brian_lee_p1\user_login_validation)
+08:24:12.272 [restartedMain] INFO  c.b.UserLoginValidationApplication - No active profile set, falling back to 1 default profile: "default"
+08:24:12.338 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+08:24:12.338 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+08:24:13.316 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08:24:13.386 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interfaces.
+08:24:14.704 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+08:24:14.717 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+08:24:14.718 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:24:14.718 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+08:24:14.862 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:24:14.862 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2522 ms
+08:24:15.297 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+08:24:15.377 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+08:24:15.628 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+08:24:15.824 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+08:24:16.571 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+08:24:16.633 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+08:24:17.765 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+08:24:17.776 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08:24:18.454 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08:24:19.376 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+08:24:19.404 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+08:24:19.440 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+08:24:19.456 [restartedMain] INFO  c.b.UserLoginValidationApplication - Started UserLoginValidationApplication in 7.56 seconds (JVM running for 8.6)
+09:52:38.766 [http-nio-8001-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:52:38.767 [http-nio-8001-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:52:38.784 [http-nio-8001-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+09:52:39.201 [http-nio-8001-exec-3] INFO  com.brian.util.LoggingAspect - Logging after the save method has returned User [userId=10, userName=p1tester1000, password=passsword134, firstName=test, lastName=testlastname, membershipLevel=3]
+09:52:44.200 [http-nio-8001-exec-4] INFO  com.brian.util.LoggingAspect - Logging after the findAll method has returned [User [userId=1, userName=batman, password=password, firstName=brian, lastName=lee, membershipLevel=5], User [userId=2, userName=robin, password=password, firstName=chris, lastName=jama, membershipLevel=3], User [userId=4, userName=joker, password=password, firstName=john, lastName=smith, membershipLevel=2], User [userId=6, userName=notp0, password=passsword, firstName=test, lastName=testlastname, membershipLevel=3], User [userId=10, userName=p1tester1000, password=passsword134, firstName=test, lastName=testlastname, membershipLevel=3]]
+09:53:00.155 [http-nio-8001-exec-6] INFO  com.brian.util.LoggingAspect - Logging after the findById method has returned Optional[User [userId=10, userName=p1tester1000, password=passsword134, firstName=test, lastName=testlastname, membershipLevel=3]]
+09:53:20.903 [http-nio-8001-exec-5] INFO  com.brian.util.LoggingAspect - Logging after the save method has returned User [userId=10, userName=p1tester2333, password=passsword, firstName=updated this, lastName=and this, membershipLevel=3]
+09:53:25.367 [http-nio-8001-exec-9] INFO  com.brian.util.LoggingAspect - Logging after the findAll method has returned [User [userId=1, userName=batman, password=password, firstName=brian, lastName=lee, membershipLevel=5], User [userId=2, userName=robin, password=password, firstName=chris, lastName=jama, membershipLevel=3], User [userId=4, userName=joker, password=password, firstName=john, lastName=smith, membershipLevel=2], User [userId=6, userName=notp0, password=passsword, firstName=test, lastName=testlastname, membershipLevel=3], User [userId=10, userName=p1tester2333, password=passsword, firstName=updated this, lastName=and this, membershipLevel=3]]
+09:53:36.330 [http-nio-8001-exec-10] INFO  com.brian.util.LoggingAspect - Logging after the delete method has returned null
+09:53:40.632 [http-nio-8001-exec-1] INFO  com.brian.util.LoggingAspect - Logging after the findAll method has returned [User [userId=1, userName=batman, password=password, firstName=brian, lastName=lee, membershipLevel=5], User [userId=2, userName=robin, password=password, firstName=chris, lastName=jama, membershipLevel=3], User [userId=4, userName=joker, password=password, firstName=john, lastName=smith, membershipLevel=2], User [userId=6, userName=notp0, password=passsword, firstName=test, lastName=testlastname, membershipLevel=3]]
+09:54:31.441 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+09:54:31.446 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+09:54:31.454 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+09:54:31.605 [restartedMain] INFO  c.b.UserLoginValidationApplication - Starting UserLoginValidationApplication using Java 17.0.2 on Brian-Laptop with PID 17056 (C:\Users\blee1\Documents\Java\brian_lee_p1\user_login_validation\target\classes started by blee1 in C:\Users\blee1\Documents\Java\brian_lee_p1\user_login_validation)
+09:54:31.606 [restartedMain] INFO  c.b.UserLoginValidationApplication - No active profile set, falling back to 1 default profile: "default"
+09:54:32.159 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:54:32.176 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+09:54:32.398 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+09:54:32.399 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+09:54:32.400 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:54:32.400 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+09:54:32.439 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:54:32.440 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 827 ms
+09:54:32.533 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:54:32.543 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+09:54:32.944 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+09:54:32.945 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+09:54:33.191 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:54:33.191 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:54:33.322 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09:54:33.599 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:54:33.612 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+09:54:33.623 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+09:54:33.627 [restartedMain] INFO  c.b.UserLoginValidationApplication - Started UserLoginValidationApplication in 2.087 seconds (JVM running for 5421.574)
+09:54:33.630 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+09:58:01.856 [RMI TCP Connection(101)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+09:58:01.869 [RMI TCP Connection(101)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+09:58:01.870 [RMI TCP Connection(101)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+09:58:01.874 [RMI TCP Connection(101)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+13:49:28.120 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.3.Final
+13:49:28.124 [restartedMain] INFO  c.b.UserLoginValidationApplication - Starting UserLoginValidationApplication using Java 17.0.2 on Brian-Laptop with PID 4624 (C:\Users\blee1\Documents\Java\brian_lee_p1\user_login_validation\target\classes started by blee1 in C:\Users\blee1\Documents\Java\brian_lee_p1\user_login_validation)
+13:49:28.124 [restartedMain] INFO  c.b.UserLoginValidationApplication - No active profile set, falling back to 1 default profile: "default"
+13:49:28.186 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:49:28.186 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:49:28.912 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:49:28.959 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+13:49:29.590 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+13:49:29.598 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+13:49:29.598 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:49:29.598 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+13:49:29.676 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:49:29.676 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1489 ms
+13:49:29.854 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:49:29.900 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+13:49:30.051 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:49:30.158 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:49:30.779 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:49:30.810 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+13:49:31.602 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:49:31.613 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:49:31.920 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:49:32.278 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:49:32.295 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+13:49:32.319 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+13:49:32.328 [restartedMain] INFO  c.b.UserLoginValidationApplication - Started UserLoginValidationApplication in 4.487 seconds (JVM running for 5.321)
+14:29:59.553 [RMI TCP Connection(49)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+14:29:59.572 [RMI TCP Connection(49)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:29:59.576 [RMI TCP Connection(49)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:29:59.580 [RMI TCP Connection(49)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
