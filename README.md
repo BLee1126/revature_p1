@@ -75,126 +75,126 @@ Install software to sent requests to the API.
     }    
 **Find Reservation by ID**
 
--url: http://localhost:5000/rsvps/one?id=?
+    -url: http://localhost:5000/rsvps/one?id=?
 
--Request Parameter: ID (Integer)
+    -Request Parameter: ID (Integer)
    
 **Find all Reservations**
 
--url: http://localhost:5000/rsvps/all
+    -url: http://localhost:5000/rsvps/all
 
 **Update Reservation by Reservation ID**
 
--url: http://localhost:5000/rsvps/update
+    -url: http://localhost:5000/rsvps/update
 
--RequestBody:
+    -RequestBody:
 
-{
-    "id": 1,
-    "quantity": 1,
-    "totalCost": 800.11
-}
+    {
+        "id": 1,
+        "quantity": 1,
+        "totalCost": 800.11
+    }
                    
 **Delete Reservation by Reservation ID**
 
--url: http://localhost:5000/rsvps/delete?id=?
+    -url: http://localhost:5000/rsvps/delete?id=?
 
--Request Parameter: Reservation ID (Integer)
-    
+    -Request Parameter: Reservation ID (Integer)
+
 
 ### Jets Functionality
 
 
 **Save New Jet**
 
--url: http://localhost:5000/Jets/save
+    -url: http://localhost:5000/Jets/save
 
 **id is auto-serialized**
 
--RequestBody:
+    -RequestBody:
 
-{
-    "name":"here comes johnny",
-    "capacity": 400
-}
+    {
+        "name":"here comes johnny",
+        "capacity": 400
+    }
     
 **Find Jet by ID**
 
--url: http://localhost:5000/jets/one?id=?
+    -url: http://localhost:5000/jets/one?id=?
 
--Request Parameter: Jet ID (Integer)
+    -Request Parameter: Jet ID (Integer)
     
 **Find all Jets**
 
--url: http://localhost:5000/jets/all
+    -url: http://localhost:5000/jets/all
     
 **Update Jet by Jet ID**
 
--url: http://localhost:5000/jets/update?id=?
+    -url: http://localhost:5000/jets/update?id=?
 
--Request Parameter: Jet ID (Integer)
+    -Request Parameter: Jet ID (Integer)
 
--RequestBody:
+    -RequestBody:
 
-{
-    "id":2,
-    "name": "beluga no longer",
-    "capacity": 3
-}
+    {
+        "id":2,
+        "name": "beluga no longer",
+        "capacity": 3
+    }
                   
 **Delete Jet by Jet ID**
 
--url: http://localhost:5000/campsites/delete?id=?
+    -url: http://localhost:5000/campsites/delete?id=?
 
--Request Parameter: ID (Integer)
+    -Request Parameter: ID (Integer)
    
 ### Users Functionality
 
 
 **Find User by User ID**
 
--url: http://localhost:5000/users/id?id=?
--Request Parameter: User ID (Integer)
+    -url: http://localhost:5000/users/id?id=?
+    -Request Parameter: User ID (Integer)
 
 **Find All Users**
 
--url: http://localhost:5000/users/all
+    -url: http://localhost:5000/users/all
     
 **Save User**
 
--url: http://localhost:5000/users/create
+    -url: http://localhost:5000/users/create
 
--RequestBody:
+    -RequestBody:
 
-{
-    "userName":"p1tester",
-    "password":"passsword",
-    "firstName":"test",
-    "lastName":"testlastname",
-    "membershipLevel": 3
-}
+    {
+        "userName":"p1tester",
+        "password":"passsword",
+        "firstName":"test",
+        "lastName":"testlastname",
+        "membershipLevel": 3
+    }
                    
 **Delete User by User ID**
 
--url: http://localhost:5000/users/delete?id=?
+    -url: http://localhost:5000/users/delete?id=?
 
--Request Parameter: User ID (Integer)
-     
+    -Request Parameter: User ID (Integer)
+
  **Update User**
  
- -url: http://localhost:5000/users/update
+     -url: http://localhost:5000/users/update
  
- -RequestBody:
- 
-{
-    "userId":8,
-    "userName":"p1tester",
-    "password":"passsword",
-    "firstName":"updated this",
-    "lastName":"and this",
-    "membershipLevel": 3
-}
-    
+     -RequestBody:
+
+    {
+        "userId":8,
+        "userName":"p1tester",
+        "password":"passsword",
+        "firstName":"updated this",
+        "lastName":"and this",
+        "membershipLevel": 3
+    }
+
 
 
 
