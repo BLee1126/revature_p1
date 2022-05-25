@@ -1,6 +1,12 @@
+# Airline Ticketing Restful API
+## Description
+This project utilizes the spring framework to integrate two services into a single client facing REST API.  Users of the API can perform CRUD operations on User accounts(Users), Airplanes(Jets), and Ticket Booking(Reservations).
 
-Airline Ticketing REST API
+Airline Ticketing REST API Usage
 ==============================
+
+
+
 
 This API is setup to handle the creation and management of
 ----------------------------------------------------------
