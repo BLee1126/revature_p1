@@ -42,13 +42,16 @@ Improvements to be made:
 ## Getting Started
 
 Install software to sent requests to the API.
--SoapUI
--Postman
--ARC(Advanced Rest Client)
+    -SoapUI
+    -Postman
+    -ARC(Advanced Rest Client)
+
 
 -cloning: git clone https://github.com/BLee1126/revature_p1.git
+
 -System enviromental variables needed for:
--db_url_p0, db_url_p1, db_username_p0, db_username_p1, db_password_p0, db_password_p1
+
+    -db_url_p0, db_url_p1, db_username_p0, db_username_p1, db_password_p0, db_password_p1
 
 ## Usage
 
