@@ -19,7 +19,8 @@ Airline Ticketing REST API Usage
 
 
 
-##Features
+
+## Features
 This API is setup to handle the creation and management of
 ----------------------------------------------------------
 **-Jets**
