@@ -61,7 +61,7 @@ Install software to sent requests to the API.
 ### Reservations Functionality
 
 
-**Save a new Reservation** 
+**-Save a new Reservation** 
 
 -url: http://localhost:5000/rsvps/create/
 
