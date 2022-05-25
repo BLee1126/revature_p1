@@ -36,8 +36,8 @@ This API is setup to handle the creation and management of
     
 Improvements to be made:
 ----------------------------------------------------------
-* Business logic to integrate flights and reservations.
-* Management levels of membership levels (Amount of money spent)
+    * Business logic to integrate flights and reservations.
+    * Management levels of membership levels (Amount of money spent)
 
 ## Getting Started
 
