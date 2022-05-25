@@ -58,8 +58,8 @@ Install software to sent requests to the API.
 
 ## Usage
 
-Reservations Functionality
-=============================
+### Reservations Functionality
+
 
 **Save a new Reservation** 
 
@@ -102,8 +102,8 @@ Reservations Functionality
 -Request Parameter: Reservation ID (Integer)
     
 
-Jets Functionality
-=======================
+### Jets Functionality
+
 
 **Save New Jet**
 
@@ -148,8 +148,8 @@ Jets Functionality
 
 -Request Parameter: ID (Integer)
    
-Users Functionality
-======================
+### Users Functionality
+
 
 **Find User by User ID**
 
