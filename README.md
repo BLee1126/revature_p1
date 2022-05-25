@@ -14,12 +14,6 @@ This project utilizes the spring framework to integrate two services into a sing
 * REST
 * JMS Queues
 
-Airline Ticketing REST API Usage
-==============================
-
-
-
-
 ## Features
 This API is setup to handle the creation and management of
 ----------------------------------------------------------
