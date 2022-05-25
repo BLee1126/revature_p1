@@ -1,13 +1,25 @@
 # Airline Ticketing Restful API
 ## Description
+
 This project utilizes the spring framework to integrate two services into a single client facing REST API.  Users of the API can perform CRUD operations on User accounts(Users), Airplanes(Jets), and Ticket Booking(Reservations).
+
+## Technologies Used
+
+* Java 8
+* SQL
+* Spring AOP
+* Spring Boot
+* Spring Data
+* SOAP
+* REST
+* JMS Queues
 
 Airline Ticketing REST API Usage
 ==============================
 
 
 
-
+##Features
 This API is setup to handle the creation and management of
 ----------------------------------------------------------
 **-Jets**
@@ -27,6 +39,23 @@ This API is setup to handle the creation and management of
     -quantity
     -totalCost
     
+Improvements to be made:
+----------------------------------------------------------
+* Business logic to integrate flights and reservations.
+* Management levels of membership levels (Amount of money spent)
+
+## Getting Started
+
+Install software to sent requests to the API.
+-SoapUI
+-Postman
+-ARC(Advanced Rest Client)
+
+-cloning: git clone https://github.com/BLee1126/revature_p1.git
+-System enviromental variables needed for:
+-db_url_p0, db_url_p1, db_username_p0, db_username_p1, db_password_p0, db_password_p1
+
+## Usage
 
 Reservations Functionality
 =============================
