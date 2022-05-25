@@ -61,18 +61,18 @@ Install software to sent requests to the API.
 ### Reservations Functionality
 
 
-**-Save a new Reservation** 
+**Save a new Reservation** 
 
--url: http://localhost:5000/rsvps/create/
+    -url: http://localhost:5000/rsvps/create/
 
 **id is auto-serialized**
 
--RequestBody:
+    -RequestBody:
 
-{
-"quantity":10,
-"totalCost":4900.98
-}    
+    {
+    "quantity":10,
+    "totalCost":4900.98
+    }    
 **Find Reservation by ID**
 
 -url: http://localhost:5000/rsvps/one?id=?
